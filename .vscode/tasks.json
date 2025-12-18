@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "ninja",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "ninja clean",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            }
+        },
+        {
+            "label": "Rebuild",
+            "type": "shell",
+            "command": "ninja clean && ninja",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            }
+        },
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "cmake .. -G Ninja",
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/Start",
+                "${workspaceFolder}/Library",
+                "${workspaceFolder}/User"
+            ],
+            "defines": [
+                "STM32F10X_MD",
+                "USE_STDPERIPH_DRIVER"
+            ],
+            "compilerPath": "C:/ProgramData/chocolatey/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

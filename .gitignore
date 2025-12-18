@@ -1,0 +1,32 @@
+# Build output
+build/
+
+# IDE files
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+*.bak
+*.lst
+*.map
+*.dep
+*.d
+*.o
+*.axf
+*.htm
+*.lnp
+*.sct
+*.Bak
+*.dbgconf
+
+# Generated files
+*.elf
+*.hex
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*~
